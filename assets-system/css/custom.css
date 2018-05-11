@@ -1,0 +1,173 @@
+#checkBox{
+	position:relative;
+	margin-left:10px;
+	top:3px;
+}
+.hoejre{
+	padding-left:60px;	
+}
+
+.ned{
+	padding-top:10px;	
+}
+
+.textcenter{
+	text-align:center;
+}
+
+.frem{
+	padding-left:20px;
+}
+
+.margin{
+	padding-left:30px;
+	padding-top:15px;
+}
+.red{
+	color:red;
+	font-size:14px;
+	font-weight:bold;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#footer{
+	padding: 1.5rem; text-align:center;
+}
+
+.error{
+	color:red;
+}
+
+.navbar {
+	background-color:lightgrey; 
+}
+.background-nav2{
+	background-color:#DCFFCC;
+	border: 1px solid #9DB88A;
+	padding-right:15px;
+}
+
+.background-nav2 > .p-2 {
+  padding-left: 5px !important;
+}
+
+div.mr-auto.p-2{
+	padding-left:30px !important;
+}
+.nav2 a {
+	padding-left: 10px;
+}
+.userstats-background{
+	background-color:#F4FEF2;
+	border: 1px solid #9DB88A;
+	margin-top:20px;
+}
+.userstatsborder{
+	border: 1px solid #9DB88A;	
+}
+.profile-background{
+	background-color:#DCFFCC;
+	border: 1px solid #9DB88A;	
+}
+/*------------Playlist Starts----------------*/
+
+.noti-content ul li a .time {
+    display: block;
+    color: #bbb;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.noti-content ul li a i {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    line-height: 20px;
+}
+
+.noti-content ul li a {
+    padding: 15px 20px 15px 50px;
+    display: block;
+    position: relative;
+}
+
+a {
+    color: #333;
+    text-decoration: none !important;
+    outline: none;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.noti-content ul li {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+a:hover{
+	color:#E75A3A !important;
+}
+
+.noti-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*------------Playlist Ends------------------*/
+
+
+/*------------File Upload Starts-------------*/
+ *{
+margin:0;
+padding:0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
+	  }
+.main{
+width:400px;
+margin: 20px;
+background-color:#fff;
+text-align:center;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 5px #000;
+	  }
+	  .inp:focus{
+		  outline:none;
+	  }
+	  h2{
+		  color:#4caf50;
+	  }
+	  .previewImage img.icon{
+		  width:100px;
+		  overflow:hidden;
+	  }
+	.previewImage2 img.icon{
+		  width:100px;
+		  margin:0 auto;
+		  overflow:hidden;
+	  }
+	  .fail {
+			margin-top: 20px;
+			font-family: sans-serif;
+			font-size: 16px;
+			color: rgb(221, 0, 0);
+	  }
+	  .success {
+			margin-top: 20px;
+			font-family: sans-serif;
+			font-size: 16px;
+			color: rgb(6, 190, 43);
+	  }
+
+
+
+/*------------File Uploads Ends--------------*/
