@@ -1,6 +1,6 @@
 <?php
 session_start();
-    include_once '../../../../admin/includes/class.user.php';
+    include_once '../../../../admin/admin-includes/class.user.php';
     $user = User::getInstance();
     $uid = $_SESSION['uid'];
     if (!$user->get_session()){
@@ -12,8 +12,8 @@ session_start();
 	$userData = $user->get_user_by_id($uid);
 ?>
 	<head>
-		<?php include_once '../../../../admin/includes/head.php';?>
-		<link rel="stylesheet" href="../../../../assets-system/css/custom.css"/>
+		<?php include_once '../../../../admin/admin-includes/head.php';?>
+		<link rel="stylesheet" href="../../../../Assets-System/css/user.css"/>
 		<link rel="stylesheet" href="../assets/library.css"/>
 	</head>
 	<body>
@@ -34,9 +34,9 @@ session_start();
 			<div class="mr-auto p-2">Welcome Back <?php echo $userData ['fname']?></div>
 			<div class="p-2 nav2">|<a href="">Support</a></div>
 			<div class="p-2 nav2">|<a href="">My Favorites</a></div>
-			<div class="p-2 nav2">|<a href="../../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Library</a></div>
+			<div class="p-2 nav2">|<a href="../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Library</a></div>
 			<div class="p-2 nav2">|<a href="">My Recommendations</a></div>
-			<div class="p-2 nav2">|<a href="../../../../../admin/navbar/library/admin/navbar/settings/settings.php">Settings</a></div>
+			<div class="p-2 nav2">|<a href="../../../../admin/navbar/library/admin/navbar/settings/settings.php">Settings</a></div>
 			<div class="p-2 nav2">|<a href="">Messages</a></div>
 			<div class="p-2 nav2">|</div>
 		</div>
@@ -45,11 +45,11 @@ session_start();
 			<div class="mr-auto p-2">
 				<a class="" href="">All</a>
 				<a href="">Movies</a>
-				<a href="../../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Series</a>
+				<a href="../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Series</a>
 				<a href="" class="grey ">Anime</a>
 				<a class="active" href="">All</a>
 				<a href="">Movies</a>
-				<a href="../../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Series</a>
+				<a href="../../../../admin/navbar/library/admin/navbar/library/library-php/library.php">Series</a>
 			</div>
 		</div>
 		
@@ -92,7 +92,7 @@ session_start();
 					<tr>
 						<td>1</td>
 						<td><img src="../images/sword-art-online.jpg" height=70px width=50px></td>
-								  <td><span class="left">Sword Art Online</span><span class="right"><a href="../../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
+								  <td><span class="left">Sword Art Online</span><span class="right"><a href="../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
 						<td>Serie</td>
 						<td>9.2</td>
 						<td>- / xx <i class="fa fa-plus-circle blue plusicon"></i></td>
@@ -108,7 +108,7 @@ session_start();
 					<tr>
 						<td>2</td>
 						<td><img src="../images/spider-man.jpg" height=70px width=50px></td>
-								  <td><span class="left">Spider-man</span><span class="right"><a href="../../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
+								  <td><span class="left">Spider-man</span><span class="right"><a href="../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
 						<td>Movie</td>
 						<td>6.8</td>
 						<td>- / xx&nbsp;<i class="fa fa-plus-circle blue"></i></td>
@@ -125,7 +125,7 @@ session_start();
 					<tr>
 						<td>3</td>
 						<td><img src="../images/ncis.jpg" height=70px width=50px></td>
-								  <td><span class="left">NCIS</span><span class="right"><a href="../../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
+								  <td><span class="left">NCIS</span><span class="right"><a href="../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
 						<td>Serie</td>
 						<td>7.7</td>
 						<td>- / xx <i class="fa fa-plus-circle blue"></i></td>
@@ -140,7 +140,7 @@ session_start();
 					<tr>
 						<td>4</td>
 						<td><img src="../images/batman.jpg" height=70px width=50px></td>
-								  <td><span class="left">Batman</span><span class="right"><a href="../../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
+								  <td><span class="left">Batman</span><span class="right"><a href="../../../../admin/navbar/library/more.php">More</a> - <a herf="edit.php">edit</a></span></td>
 						<td>Movie</td>
 						<td>6.2</td>
 						<td>- / xx <i class="fa fa-plus-circle blue"></i></td>

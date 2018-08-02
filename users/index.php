@@ -1,5 +1,5 @@
 <?php
-require_once("../admin/includes/class.user.php");
+require_once("../admin/admin-includes/class.user.php");
 $user = User::getInstance();
 if (!$user->get_session()){
 	header("Location: login.php");

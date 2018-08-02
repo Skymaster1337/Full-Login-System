@@ -79,5 +79,5 @@
 	  <br>
     
 </div>
-				<?php include ('change-pw-email.php');?>
+				<?php include ('../../../Full-Login-System/users/settings/includes/change-pw-email.php');?>
 		   </div>

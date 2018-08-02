@@ -1,6 +1,6 @@
 <?php
 session_start();
-    include_once '../../admin/includes/class.user.php';
+    include_once '../../admin/admin-includes/class.user.php';
     $user = User::getInstance();
     $uid = $_SESSION['uid'];
     if (!$user->get_session()){
@@ -144,8 +144,8 @@ $target_file = "data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZ
 	}
 ?>
 	<head>
-		<?php include_once '../../admin/includes/head.php';?>
-		<link rel="stylesheet" href="../../assets-system/css/custom.css"/>
+		<?php include_once '../../admin/admin-includes/head.php';?>
+		<link rel="stylesheet" href="../../Assets-System/css/user.css"/>
 	</head>
 
 	<body>
