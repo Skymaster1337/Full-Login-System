@@ -1,5 +1,5 @@
 <?php
-require_once('includes/class.user.php');
+require_once('admin-includes/class.user.php');
 $user = User::getInstance();
 	if (!$user->get_session()){
 	   header("Location: login.php");
@@ -17,11 +17,11 @@ $user = User::getInstance();
 ?>
 <head>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets-system/css/bootstrap.css"/>
-		<link rel="stylesheet" href="../assets-system/css/custom.css"/>
+    <link rel="stylesheet" href="../Full-Login-System/assets-system/css/bootstrap.css"/>
+		<link rel="stylesheet" href="../Assets-System/css/user.css"/>
 </head>
 <body>
-	<link rel="stylesheet" href="../assets-system/css/custom_admin.css"/>
+	<link rel="stylesheet" href="../Assets-System/css/admin.css"/>
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 			<a class="navbar-left" href="../users/home.php">Home</a>
@@ -36,7 +36,7 @@ $user = User::getInstance();
 	</nav>
 	<link rel="stylesheet" href="../assets-system/css/sidebar.css"/>
 	<ul id="social_side_links">
-		<li><a style="background-color: #54aed0" href="../../admin/?reg"><img src="../assets-system/images/create-group-button.svg" /></a></li>
+		<li><a style="background-color: #54aed0" href="./?reg"><img src="images/create-group-button.svg" /></a></li>
 	</ul>
 	<div class="container">
 		<div class="row">
@@ -74,7 +74,7 @@ $user = User::getInstance();
 			</table>
 	   </div>
 	</div>
-    <script src="../assets-system/js/jquery.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../Full-Login-System/assets-system/js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
